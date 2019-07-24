@@ -1,0 +1,12 @@
+//Quantificadores
+
+*-Ele busca 0 ocorrência o ou mais ocorrências
++-Ele busca uma ocorrência ou mais ocorrências
+?-Ele busca 0 ocorrência ou uma vez
+{}-Total de vezes
+
+
+
+
+
+

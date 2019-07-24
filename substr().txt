@@ -1,0 +1,17 @@
+//Função que exibi determinado valor de uma variavel, a partir de posições que você determinar
+
+
+
+Sintax
+
+ext.substr(indice1,indice2);
+
+
+
+Example
+
+function floatToMoneyText(value) {
+var text = (value < 1 ? "0" : "") + Math.floor(value * 100);
+text = "R$ " + text;
+return text.substr(0, text.length - 2) + "," + text.substr(-2);
+}

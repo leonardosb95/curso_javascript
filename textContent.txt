@@ -1,0 +1,5 @@
+console.log(document.querySelector("h1").textContent="teste");
+
+escrever no html via javascript 
+
+textContent="valor escrito"

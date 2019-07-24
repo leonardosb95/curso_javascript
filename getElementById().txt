@@ -1,0 +1,20 @@
+//Serve para buscar um valor de uma determinado id
+
+
+
+
+//Sintax
+
+document.getElementById('id');
+
+
+//Example
+
+
+
+
+var id=document.getElementById('id').value;
+
+
+
+

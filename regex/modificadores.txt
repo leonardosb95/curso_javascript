@@ -1,0 +1,7 @@
+//Modificadores de expressões regulares
+
+i-Ele pede para o javascript ignorar as letrar maiusculas
+
+g-Ele busca todas as referencias que contenha em determinado elemento
+
+

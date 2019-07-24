@@ -1,0 +1,24 @@
+//Metacaracteres
+
+
+.-Encontra letras e numeros
+\w-Encontra letras de a-z e underline
+\s-Porcura ocorrências de espaço no texto
+\d-Procura se contem numero dentro do texto
+^- ocorrência devera começar com....
+$- ocorrência devera terminar com....
+
+
+
+Examples
+
+
+console.log(/./.test("Leonardo21"));//Retorna true;
+console.log(/\w/.test("Leonardo21"));//Retorna true;
+console.log(/\s/.test("Leonardo 21"));//Retorna true;
+console.log(/\d/.test("Leonardo"));//Retorna false;
+console.log(/\^21/.test("Leonardo"));//Retorna false; || console.log(/\^21/.test("21Leonardo"));//Retorna true;
+console.log(/\$21/.test("Leonardo"));//Retorna false; || console.log(/\$21/.test("Leonardo21"));//Retorna true;
+
+
+

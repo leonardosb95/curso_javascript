@@ -1,0 +1,19 @@
+//Expressão Regular, padrão para busca e substituição
+
+Observações
+obs:Expressão regular é sensivel a letras maiusculas e minusculas, então pode dar false se não estiver exatamente igual
+
+
+Criando um Objeto
+
+var regex= new RegExp("javascript");
+var regex="/javascript/; é a mesma da expressão regular acima
+string= "javascript";
+
+
+
+
+
+
+
+

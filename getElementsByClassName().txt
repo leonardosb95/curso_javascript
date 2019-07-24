@@ -1,0 +1,16 @@
+//Serve para pegar um valor de uma determinada classe
+
+
+
+
+//Sintax
+
+document.getElementsByClassName("class");
+
+
+//Example
+
+
+var produtos = document.getElementsByClassName("produto");
+
+console.log(produtos);

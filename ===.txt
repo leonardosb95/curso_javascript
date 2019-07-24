@@ -1,0 +1,22 @@
+//Equivale ao sinal de comparação
+
+
+
+//Sintax
+
+
+
+
+
+//Example
+
+
+
+2 == 2;
+=> true
+1 == "1";
+=> true
+0 == [];
+=> true
+0 == "";
+=> true

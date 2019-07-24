@@ -1,0 +1,18 @@
+//Substring é semelhante ao metodo slice, porem ele não aceita numero negativos
+
+
+
+//Sintax
+
+string.substring();
+
+
+
+Example
+
+
+var str = "Apple, Banana, Kiwi";
+var res = str.substring(7, 13);
+
+
+O segundo parametro dele, especifica o tamanho da parte que vai ser extraida

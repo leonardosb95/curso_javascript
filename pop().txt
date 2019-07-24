@@ -1,0 +1,16 @@
+//Exclui o ultimo elemento de um array
+
+
+
+Sintax
+
+array.pop();
+
+
+
+Example
+
+
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.pop();              // Removes the last element ("Mango") from fruits

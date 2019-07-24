@@ -1,0 +1,20 @@
+//Função que substitu determinado argumento por outro
+
+
+
+Sintax
+
+text.replace("argumento1 ","substitui por esse argumento ");
+
+
+
+//Example
+
+
+function moneyTextToFloat(){
+var cleanText=text.replace("R$"," ").replace(",",".");
+return parseFloat(cleanText);
+
+
+
+}

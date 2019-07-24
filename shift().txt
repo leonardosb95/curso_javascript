@@ -1,0 +1,14 @@
+//Remove o primeiro elemento de um arrray
+
+
+
+Sintax
+
+array.shift();
+
+
+Example
+
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.shift();            // Removes the first element "Banana" from fruits

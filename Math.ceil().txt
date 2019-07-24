@@ -1,0 +1,22 @@
+//Função que arredonda um valor para cima
+
+
+
+//Sintax
+
+Math.ceil()
+
+
+
+//Example
+
+
+Math.ceil(1.4)
+
+
+The result will be:
+
+2
+
+
+

@@ -1,0 +1,11 @@
+//NAN-significa Not-A-Number (não é um número).
+
+
+
+//Example
+
+
+NaN === NaN;        // falso
+Number.NaN === NaN; // falso
+isNaN(NaN);         // verdadeiro
+isNaN(Number.NaN);  // verdadeiro

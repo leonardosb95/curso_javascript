@@ -1,0 +1,18 @@
+//Retorna o valor da string pelo indice acionado
+
+
+
+Sintax
+string.charAt();
+
+
+Example
+
+
+var str = "HELLO WORLD";
+str.charAt(0);            // returns H
+
+
+
+
+

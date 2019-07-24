@@ -1,0 +1,20 @@
+CRIANDO UM OBJETO EM JAVSCRIPT
+
+function obtemPacienteDoFormulario(form){
+var paciente={
+nome:form.nome.value,
+peso:form.peso.value,
+altura:form.altura.value,
+gordura:form.gordura.value
+}
+
+return paciente;
+}
+
+  var form=document.querySelector('#formCadastra');
+ var paciente=obtemPacienteDoFormulario(form);
+ 
+   nomeTD.innerHTML=paciente.nome;
+        pesoTD.innerHTML=paciente.peso;
+        alturaTD.innerHTML=paciente.altura;
+        gorduraTD.innerHTML=paciente.gordura;

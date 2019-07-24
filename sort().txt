@@ -1,0 +1,15 @@
+//Sorteia elementos dentro de um array por ordem alfabetica
+
+
+
+
+Sintax
+
+array.sort();
+
+
+
+Example
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.sort();

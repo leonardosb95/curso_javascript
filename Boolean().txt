@@ -1,0 +1,16 @@
+//Verifica se a variavel é booleana
+
+
+
+
+Sintax
+
+Boolean()
+
+
+
+Example
+
+
+var x = 10 / "H";
+Boolean(x);       // returns false

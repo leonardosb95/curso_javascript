@@ -1,0 +1,17 @@
+//Ele testa se o valor procurado é igual e retorna valor booleano
+
+
+
+Sintax
+
+regex.test();
+
+
+Example
+
+
+var regex= new RegExp("javascript");
+var regex="/javascript/; é a mesma da expressão regular acima
+string= "javascript";
+
+regex.test(string);//	Retorna true;

@@ -1,0 +1,10 @@
+arrendodar uma porcentagem para duas casas decimais 
+
+
+ function calculaImc(peso,altura){
+var imc= peso/(altura*altura);
+
+return imc.toFixed(2);
+
+
+  }

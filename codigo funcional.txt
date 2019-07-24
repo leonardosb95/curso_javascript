@@ -1,0 +1,40 @@
+Segue abaixo o código funcional.
+ 
+var qtd = document.querySelectorAll('[proposalId]').length;
+console.log(qtd)
+ 
+ 
+//percorre este laço em 2x.
+for(var i=2;i<qtd+2;i++){
+ 
+ 
+    if(i<=9){
+    var id="ctl00_cphMain_gvBackOffice_ctl0"+i+"_lblDocument";
+    }
+    else{
+    var id="ctl00_cphMain_gvBackOffice_ctl"+i+"_lblDocument";
+    }
+console.log(id);
+ 
+    var span=document.getElementById(id);
+    if(span.innerHTML.length==11){
+ 
+    console.log(span.innerHTML);
+    if(i<=9){
+    var botaoCancelar="ctl00_cphMain_gvBackOffice_ctl0"+i+"_imgRefuse";
+    }else{
+    var botaoCancelar="ctl00_cphMain_gvBackOffice_ctl"+i+"_imgRefuse";
+    }
+    document.getElementById(botaoCancelar).click();
+   var y=setInterval(function(){ document.getElementById('ctl00_cphMain_ddlCancelReason').value="6687";
+document.getElementById('ctl00_cphMain_txtCancelDesc').value="Cliente PRÉ com produto PÓS selecionado.";
+document.getElementById('ctl00_cphMain_btnConfirm').click();
+ 
+}, 3000);
+ 
+    break;
+}
+ 
+ 
+ 
+}

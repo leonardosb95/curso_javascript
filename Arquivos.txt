@@ -1,0 +1,19 @@
+r-//Abre p/leitura ponteiro no inicio
+r+//Abre p/leitura e escrita
+x//Abre p/leitura,ponteiro no inicio e
+
+
+
+
+
+
+
+fopen("nome_do_arquivo.txt","ação")//Serve para abrir o arquivo e realizar determinada ação
+
+FGETS( )//Lê uma linha de um ponteiro de arquivo
+
+fread($arquivo,numero de bytes a ser lido);//Serve para ler o conteudo dentro do arquivo txt e o numero de bytes que deseja ler no arquivo
+
+fclose($arquivo);//Ao abrir o arquivo, precisa fecha-lo tambem
+
+

@@ -1,0 +1,19 @@
+Criar um elemento de html
+
+   var pacientesTR=document.createElement('tr');
+        pacientesTR.className ="paciente";
+        var nomeTD=document.createElement('td');
+        var pesoTD=document.createElement('td');
+        var alturaTD=document.createElement('td');
+        var gorduraTD=document.createElement('td');
+        var imcTD=document.createElement('td');
+		
+		
+		para adicionar o elemento
+		
+		 form.appendChild(pacientesTR);
+        pacientesTR.appendChild(nomeTD);
+        pacientesTR.appendChild(pesoTD);
+        pacientesTR.appendChild(alturaTD);;
+        pacientesTR.appendChild(gorduraTD);
+        pacientesTR.appendChild(imcTD);

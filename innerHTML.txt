@@ -1,0 +1,17 @@
+//Serve para atribuir um texto ou localizar um valor do tipo texto;
+
+
+//Sintax
+
+
+innerHTML=" ";
+
+
+
+//Example
+
+var total=document.getElementById('total');
+alert(total.innerHTML);
+
+
+//Pega o valor de uma div que contem o id total

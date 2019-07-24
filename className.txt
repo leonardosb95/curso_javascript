@@ -1,0 +1,6 @@
+adicionar um class em uma div 
+
+
+
+var pacientesTR=document.createElement('tr');//
+pacientesTR.className ="paciente";

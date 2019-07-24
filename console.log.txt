@@ -1,0 +1,18 @@
+//Serve para escrever ou visualizar qualquer elemento pelo browser
+
+Console
+No Chrome, Firebug e Opera, você pode adicionar mensagens de depuração
+no código usando console.debug(mensagem).
+No Internet Explorer e no Firefox sem Firebug, o comando vai causar um
+erro e parar a execução do seu script.
+
+
+//Sintax 
+
+console.log();
+
+
+//Example
+
+
+console.log("hello world");

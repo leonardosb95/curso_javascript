@@ -1,0 +1,43 @@
+//Arrays em javascript
+
+
+
+Sintax
+
+var array_name = [item1, item2, ...]; 
+
+
+Example
+
+var cars = ["Saab", "Volvo", "BMW"];
+
+var cars = [
+    "Saab",
+    "Volvo",
+    "BMW"
+];
+
+
+var cars = new Array("Saab", "Volvo", "BMW");
+
+
+Acessando elementos de um array
+
+var name = cars[0];
+
+cars[0] = "Opel";
+
+Obs:Javascript nãi suporta arrays associativos
+
+var points = new Array();         // Bad
+var points = [];  //Good
+
+var points = new Array(40, 100, 1, 5, 25, 10); // Bad
+var points = [40, 100, 1, 5, 25, 10];          // Good
+
+
+Função que verifica se esta usando um array
+Array.isArray(array);
+
+
+

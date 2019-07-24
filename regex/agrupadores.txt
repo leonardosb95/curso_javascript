@@ -1,0 +1,14 @@
+//Ele localiza determinada ocorrência que estiver dentro do parenteses
+
+
+
+
+Sintax
+
+[]
+
+
+
+Example
+
+console.log(/c[ae]u/.test("cau"))//Retorna verdadeiro porque ele pode ser o a ou e no meio da palavra

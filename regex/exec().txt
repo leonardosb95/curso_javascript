@@ -1,0 +1,14 @@
+//Ele retorna a primeira ocorrência encontrada
+
+
+
+Sintax
+
+regex.exec();
+
+
+Example
+
+/doce/i.exec("Qual é o Doce mais doce que do que?");//Retorna Doce, mas somente uma vez
+
+
