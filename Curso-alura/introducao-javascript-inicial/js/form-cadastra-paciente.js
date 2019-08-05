@@ -2,13 +2,8 @@
 document.getElementById("adicionar-paciente").addEventListener("click", function (event) {
     event.preventDefault();
     var form = document.querySelector('#formCadastra');
-
     var paciente = obtemPacienteDoFormulario(form);
-
-    var pacienteTR = montaTR(paciente);
-    estilizaResultado();
-    validaPaciente(paciente);
-
+    adicionaPacienteNaTabela(paciente);
     form.reset();
 
 });
@@ -22,6 +17,13 @@ function calculaImc(peso, altura) {
     return imc.toFixed(2);
 
 
+}
+
+function adicionaPacienteNaTabela(paciente){
+    var pacienteTR = montaTR(paciente);
+    estilizaResultado();
+    validaPaciente(paciente);
+    
 }
 //Criando um objeto paciente
 function obtemPacienteDoFormulario(form) {
